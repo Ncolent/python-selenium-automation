@@ -1,6 +1,5 @@
 from behave import given, when, then
 from selenium.webdriver.common.by import By
-from time import sleep
 
 ADD_TO_CART = (By.ID, 'add-to-cart-button')
 PRODUCT_NAME = (By.ID, 'productTitle')

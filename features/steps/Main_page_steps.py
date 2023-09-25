@@ -1,6 +1,6 @@
 from behave import given, when, then
 from selenium.webdriver.common.by import By
-from time import sleep
+
 
 FOOTER_LINKS = (By.CSS_SELECTOR, '.navFooterDescText')
 ORDERS = (By.XPATH, "//span[contains(text(), '& Orders')]")
@@ -8,7 +8,6 @@ ORDERS = (By.XPATH, "//span[contains(text(), '& Orders')]")
 @given('Open Amazon page')
 def open_amazon(context):
     context.driver.get('https://amazon.com')
-    sleep(2)
     context.driver.refresh()
 
 @when('Click Orders')

@@ -1,6 +1,5 @@
 from behave import given, when, then
 from selenium.webdriver.common.by import By
-from time import sleep
 
 PRODUCT_NAME = (By.CSS_SELECTOR, '#sc-active-cart-li')
 

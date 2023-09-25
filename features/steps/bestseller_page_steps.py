@@ -1,6 +1,5 @@
 from behave import given, when, then
 from selenium.webdriver.common.by import By
-from time import sleep
 
 LINKS = (By.CSS_SELECTOR, "class*='nav-tab-all_style_zg-tabs-li")
 
